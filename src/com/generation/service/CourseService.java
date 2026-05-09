@@ -42,6 +42,7 @@ public class CourseService
 
     public void registerCourse( Course course )
     {
+
         courses.put( course.getCode(), course );
     }
 
